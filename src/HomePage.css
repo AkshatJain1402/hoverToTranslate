@@ -1,0 +1,98 @@
+.navbar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbarListItems {
+  margin-left: 80px;
+  font-size: larger;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.homepageRootContainer {
+  display: flex;
+  flex-direction: column;
+}
+.Link-Container {
+  margin-top: 40px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  padding: 20px;
+}
+
+.headingLinkContainer {
+  font-size: 35px;
+}
+.Requested-forms {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  width: 40%;
+  padding: 0;
+}
+.news-highlights {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+}
+.linkListHomePage {
+  list-style: square;
+}
+
+.listItemsHomePage {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.listItemsHomePage:hover {
+  color: rgb(0, 255, 0);
+}
+.blueContainer {
+  background-color: rgb(83, 78, 236);
+  padding: 30px;
+  margin-bottom: 80px;
+}
+.blueContainerItems {
+  width: max-content;
+}
+.translatedDiv {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  height: max-content;
+  width: 250px;
+  overflow-x: scroll;
+  border-radius: 25px;
+  border-bottom: 25px;
+  border-bottom: 25px;
+}
+.footer {
+  background-color: black;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+.footerList {
+  margin-right: 20px;
+}
+.footerDiv1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.footerDiv2 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
